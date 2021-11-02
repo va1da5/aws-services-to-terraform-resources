@@ -12,7 +12,7 @@ The results are stored in [dumps](dumps/) directory.
 
 ## Notebooks
 
-- [Extracts data from the original sites](extraxt.ipynb)
+- [Extracts data from the original sites](extract.ipynb)
 - [Transforms the gathered data](transform.ipynb)
 
 ## Generated Files
