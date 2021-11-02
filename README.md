@@ -6,7 +6,7 @@ This repo tries to answer a question:
   
   > "Which AWS Terraform provider resources are related to a specific AWS service prefix, like *EC2:\**?"
 
-It answers it while mapping documentation from [AWS Terraform provider](https://registry.terraform.io/providers/hashicorp/aws/latest) to [AWS Service Authorization items](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html#actions_table).
+It attempts to answer the question while mapping documentation from [AWS Terraform provider](https://registry.terraform.io/providers/hashicorp/aws/latest) to [AWS Service Authorization items](https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html#actions_table).
 
 The results are stored in [dumps](dumps/) directory.
 
