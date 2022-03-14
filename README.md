@@ -10,6 +10,8 @@ It attempts to answer the question while mapping documentation from [AWS Terrafo
 
 The results are stored in [dumps](dumps/) directory.
 
+The latests parsed version: **[hashicorp/aws v4.5.0](https://registry.terraform.io/providers/hashicorp/aws/4.5.0)**
+
 ## Notebooks
 
 - [Extracts data from the original sites](extract.ipynb)

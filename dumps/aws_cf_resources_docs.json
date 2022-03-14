@@ -177,6 +177,112 @@
       }
     ]
   },
+  "AWS_AmplifyUIBuilder": {
+    "contents": [
+      {
+        "title": "Amplify UI Builder",
+        "href": "AWS_AmplifyUIBuilder.html",
+        "contents": [
+          {
+            "title": "AWS::AmplifyUIBuilder::Component",
+            "href": "aws-resource-amplifyuibuilder-component.html",
+            "contents": [
+              {
+                "title": "ActionParameters",
+                "href": "aws-properties-amplifyuibuilder-component-actionparameters.html"
+              },
+              {
+                "title": "ComponentBindingPropertiesValue",
+                "href": "aws-properties-amplifyuibuilder-component-componentbindingpropertiesvalue.html"
+              },
+              {
+                "title": "ComponentBindingPropertiesValueProperties",
+                "href": "aws-properties-amplifyuibuilder-component-componentbindingpropertiesvalueproperties.html"
+              },
+              {
+                "title": "ComponentChild",
+                "href": "aws-properties-amplifyuibuilder-component-componentchild.html"
+              },
+              {
+                "title": "ComponentConditionProperty",
+                "href": "aws-properties-amplifyuibuilder-component-componentconditionproperty.html"
+              },
+              {
+                "title": "ComponentDataConfiguration",
+                "href": "aws-properties-amplifyuibuilder-component-componentdataconfiguration.html"
+              },
+              {
+                "title": "ComponentEvent",
+                "href": "aws-properties-amplifyuibuilder-component-componentevent.html"
+              },
+              {
+                "title": "ComponentEvents",
+                "href": "aws-properties-amplifyuibuilder-component-componentevents.html"
+              },
+              {
+                "title": "ComponentOverrides",
+                "href": "aws-properties-amplifyuibuilder-component-componentoverrides.html"
+              },
+              {
+                "title": "ComponentOverridesValue",
+                "href": "aws-properties-amplifyuibuilder-component-componentoverridesvalue.html"
+              },
+              {
+                "title": "ComponentProperties",
+                "href": "aws-properties-amplifyuibuilder-component-componentproperties.html"
+              },
+              {
+                "title": "ComponentProperty",
+                "href": "aws-properties-amplifyuibuilder-component-componentproperty.html"
+              },
+              {
+                "title": "ComponentPropertyBindingProperties",
+                "href": "aws-properties-amplifyuibuilder-component-componentpropertybindingproperties.html"
+              },
+              {
+                "title": "ComponentVariant",
+                "href": "aws-properties-amplifyuibuilder-component-componentvariant.html"
+              },
+              {
+                "title": "ComponentVariantValues",
+                "href": "aws-properties-amplifyuibuilder-component-componentvariantvalues.html"
+              },
+              {
+                "title": "FormBindings",
+                "href": "aws-properties-amplifyuibuilder-component-formbindings.html"
+              },
+              {
+                "title": "MutationActionSetStateParameter",
+                "href": "aws-properties-amplifyuibuilder-component-mutationactionsetstateparameter.html"
+              },
+              {
+                "title": "Predicate",
+                "href": "aws-properties-amplifyuibuilder-component-predicate.html"
+              },
+              {
+                "title": "SortProperty",
+                "href": "aws-properties-amplifyuibuilder-component-sortproperty.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::AmplifyUIBuilder::Theme",
+            "href": "aws-resource-amplifyuibuilder-theme.html",
+            "contents": [
+              {
+                "title": "ThemeValue",
+                "href": "aws-properties-amplifyuibuilder-theme-themevalue.html"
+              },
+              {
+                "title": "ThemeValues",
+                "href": "aws-properties-amplifyuibuilder-theme-themevalues.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "AWS_ApiGateway": {
     "contents": [
       {
@@ -227,7 +333,7 @@
               },
               {
                 "title": "MethodSetting",
-                "href": "aws-properties-apigateway-deployment-stagedescription-methodsetting.html"
+                "href": "aws-properties-apigateway-deployment-methodsetting.html"
               },
               {
                 "title": "StageDescription",
@@ -325,7 +431,7 @@
               },
               {
                 "title": "MethodSetting",
-                "href": "aws-properties-apitgateway-stage-methodsetting.html"
+                "href": "aws-properties-apigateway-stage-methodsetting.html"
               }
             ]
           },
@@ -814,6 +920,10 @@
                 "href": "aws-properties-appflow-flow-salesforcesourceproperties.html"
               },
               {
+                "title": "SAPODataDestinationProperties",
+                "href": "aws-properties-appflow-flow-sapodatadestinationproperties.html"
+              },
+              {
                 "title": "SAPODataSourceProperties",
                 "href": "aws-properties-appflow-flow-sapodatasourceproperties.html"
               },
@@ -844,6 +954,10 @@
               {
                 "title": "SourceFlowConfig",
                 "href": "aws-properties-appflow-flow-sourceflowconfig.html"
+              },
+              {
+                "title": "SuccessResponseHandlingConfig",
+                "href": "aws-properties-appflow-flow-successresponsehandlingconfig.html"
               },
               {
                 "title": "Task",
@@ -893,6 +1007,16 @@
         "title": "AppIntegrations",
         "href": "AWS_AppIntegrations.html",
         "contents": [
+          {
+            "title": "AWS::AppIntegrations::DataIntegration",
+            "href": "aws-resource-appintegrations-dataintegration.html",
+            "contents": [
+              {
+                "title": "ScheduleConfig",
+                "href": "aws-properties-appintegrations-dataintegration-scheduleconfig.html"
+              }
+            ]
+          },
           {
             "title": "AWS::AppIntegrations::EventIntegration",
             "href": "aws-resource-appintegrations-eventintegration.html",
@@ -1084,6 +1208,10 @@
               {
                 "title": "EgressFilter",
                 "href": "aws-properties-appmesh-mesh-egressfilter.html"
+              },
+              {
+                "title": "MeshServiceDiscovery",
+                "href": "aws-properties-appmesh-mesh-meshservicediscovery.html"
               },
               {
                 "title": "MeshSpec",
@@ -1560,6 +1688,10 @@
                 "href": "aws-properties-apprunner-service-coderepository.html"
               },
               {
+                "title": "EgressConfiguration",
+                "href": "aws-properties-apprunner-service-egressconfiguration.html"
+              },
+              {
                 "title": "EncryptionConfiguration",
                 "href": "aws-properties-apprunner-service-encryptionconfiguration.html"
               },
@@ -1584,6 +1716,10 @@
                 "href": "aws-properties-apprunner-service-keyvaluepair.html"
               },
               {
+                "title": "NetworkConfiguration",
+                "href": "aws-properties-apprunner-service-networkconfiguration.html"
+              },
+              {
                 "title": "SourceCodeVersion",
                 "href": "aws-properties-apprunner-service-sourcecodeversion.html"
               },
@@ -1592,6 +1728,10 @@
                 "href": "aws-properties-apprunner-service-sourceconfiguration.html"
               }
             ]
+          },
+          {
+            "title": "AWS::AppRunner::VpcConnector",
+            "href": "aws-resource-apprunner-vpcconnector.html"
           }
         ]
       }
@@ -1604,12 +1744,54 @@
         "href": "AWS_AppStream.html",
         "contents": [
           {
+            "title": "AWS::AppStream::AppBlock",
+            "href": "aws-resource-appstream-appblock.html",
+            "contents": [
+              {
+                "title": "S3Location",
+                "href": "aws-properties-appstream-appblock-s3location.html"
+              },
+              {
+                "title": "ScriptDetails",
+                "href": "aws-properties-appstream-appblock-scriptdetails.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::AppStream::Application",
+            "href": "aws-resource-appstream-application.html",
+            "contents": [
+              {
+                "title": "S3Location",
+                "href": "aws-properties-appstream-application-s3location.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::AppStream::ApplicationEntitlementAssociation",
+            "href": "aws-resource-appstream-applicationentitlementassociation.html"
+          },
+          {
+            "title": "AWS::AppStream::ApplicationFleetAssociation",
+            "href": "aws-resource-appstream-applicationfleetassociation.html"
+          },
+          {
             "title": "AWS::AppStream::DirectoryConfig",
             "href": "aws-resource-appstream-directoryconfig.html",
             "contents": [
               {
                 "title": "ServiceAccountCredentials",
                 "href": "aws-properties-appstream-directoryconfig-serviceaccountcredentials.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::AppStream::Entitlement",
+            "href": "aws-resource-appstream-entitlement.html",
+            "contents": [
+              {
+                "title": "Attribute",
+                "href": "aws-properties-appstream-entitlement-attribute.html"
               }
             ]
           },
@@ -1746,6 +1928,14 @@
                 "href": "aws-properties-appsync-datasource-relationaldatabaseconfig.html"
               }
             ]
+          },
+          {
+            "title": "AWS::AppSync::DomainName",
+            "href": "aws-resource-appsync-domainname.html"
+          },
+          {
+            "title": "AWS::AppSync::DomainNameApiAssociation",
+            "href": "aws-resource-appsync-domainnameapiassociation.html"
           },
           {
             "title": "AWS::AppSync::FunctionConfiguration",
@@ -2224,6 +2414,20 @@
                 "href": "aws-properties-batch-jobqueue-computeenvironmentorder.html"
               }
             ]
+          },
+          {
+            "title": "AWS::Batch::SchedulingPolicy",
+            "href": "aws-resource-batch-schedulingpolicy.html",
+            "contents": [
+              {
+                "title": "FairsharePolicy",
+                "href": "aws-properties-batch-schedulingpolicy-fairsharepolicy.html"
+              },
+              {
+                "title": "ShareAttributes",
+                "href": "aws-properties-batch-schedulingpolicy-shareattributes.html"
+              }
+            ]
           }
         ]
       }
@@ -2376,6 +2580,24 @@
           {
             "title": "AWS::CloudFormation::CustomResource",
             "href": "aws-resource-cfn-customresource.html"
+          },
+          {
+            "title": "AWS::CloudFormation::HookDefaultVersion",
+            "href": "aws-resource-cloudformation-hookdefaultversion.html"
+          },
+          {
+            "title": "AWS::CloudFormation::HookTypeConfig",
+            "href": "aws-resource-cloudformation-hooktypeconfig.html"
+          },
+          {
+            "title": "AWS::CloudFormation::HookVersion",
+            "href": "aws-resource-cloudformation-hookversion.html",
+            "contents": [
+              {
+                "title": "LoggingConfig",
+                "href": "aws-properties-cloudformation-hookversion-loggingconfig.html"
+              }
+            ]
           },
           {
             "title": "AWS::CloudFormation::Macro",
@@ -2682,6 +2904,72 @@
             ]
           },
           {
+            "title": "AWS::CloudFront::ResponseHeadersPolicy",
+            "href": "aws-resource-cloudfront-responseheaderspolicy.html",
+            "contents": [
+              {
+                "title": "AccessControlAllowHeaders",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-accesscontrolallowheaders.html"
+              },
+              {
+                "title": "AccessControlAllowMethods",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-accesscontrolallowmethods.html"
+              },
+              {
+                "title": "AccessControlAllowOrigins",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-accesscontrolalloworigins.html"
+              },
+              {
+                "title": "AccessControlExposeHeaders",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-accesscontrolexposeheaders.html"
+              },
+              {
+                "title": "ContentSecurityPolicy",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-contentsecuritypolicy.html"
+              },
+              {
+                "title": "ContentTypeOptions",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-contenttypeoptions.html"
+              },
+              {
+                "title": "CorsConfig",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-corsconfig.html"
+              },
+              {
+                "title": "CustomHeader",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-customheader.html"
+              },
+              {
+                "title": "CustomHeadersConfig",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-customheadersconfig.html"
+              },
+              {
+                "title": "FrameOptions",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-frameoptions.html"
+              },
+              {
+                "title": "ReferrerPolicy",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-referrerpolicy.html"
+              },
+              {
+                "title": "ResponseHeadersPolicyConfig",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-responseheaderspolicyconfig.html"
+              },
+              {
+                "title": "SecurityHeadersConfig",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-securityheadersconfig.html"
+              },
+              {
+                "title": "StrictTransportSecurity",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-stricttransportsecurity.html"
+              },
+              {
+                "title": "XSSProtection",
+                "href": "aws-properties-cloudfront-responseheaderspolicy-xssprotection.html"
+              }
+            ]
+          },
+          {
             "title": "AWS::CloudFront::StreamingDistribution",
             "href": "aws-resource-cloudfront-streamingdistribution.html",
             "contents": [
@@ -2852,8 +3140,32 @@
                 "href": "aws-properties-cloudwatch-anomalydetector-dimension.html"
               },
               {
+                "title": "Metric",
+                "href": "aws-properties-cloudwatch-anomalydetector-metric.html"
+              },
+              {
+                "title": "MetricDataQueries",
+                "href": "aws-properties-cloudwatch-anomalydetector-metricdataqueries.html"
+              },
+              {
+                "title": "MetricDataQuery",
+                "href": "aws-properties-cloudwatch-anomalydetector-metricdataquery.html"
+              },
+              {
+                "title": "MetricMathAnomalyDetector",
+                "href": "aws-properties-cloudwatch-anomalydetector-metricmathanomalydetector.html"
+              },
+              {
+                "title": "MetricStat",
+                "href": "aws-properties-cloudwatch-anomalydetector-metricstat.html"
+              },
+              {
                 "title": "Range",
                 "href": "aws-properties-cloudwatch-anomalydetector-range.html"
+              },
+              {
+                "title": "SingleMetricAnomalyDetector",
+                "href": "aws-properties-cloudwatch-anomalydetector-singlemetricanomalydetector.html"
               }
             ]
           },
@@ -2922,6 +3234,14 @@
               {
                 "title": "CustomComponent",
                 "href": "aws-properties-applicationinsights-application-customcomponent.html"
+              },
+              {
+                "title": "HAClusterPrometheusExporter",
+                "href": "aws-properties-applicationinsights-application-haclusterprometheusexporter.html"
+              },
+              {
+                "title": "HANAPrometheusExporter",
+                "href": "aws-properties-applicationinsights-application-hanaprometheusexporter.html"
               },
               {
                 "title": "JMXPrometheusExporter",
@@ -3822,6 +4142,10 @@
             "href": "aws-resource-config-organizationconfigrule.html",
             "contents": [
               {
+                "title": "OrganizationCustomCodeRuleMetadata",
+                "href": "aws-properties-config-organizationconfigrule-organizationcustomcoderulemetadata.html"
+              },
+              {
                 "title": "OrganizationCustomRuleMetadata",
                 "href": "aws-properties-config-organizationconfigrule-organizationcustomrulemetadata.html"
               },
@@ -3881,6 +4205,14 @@
         "title": "Amazon Connect",
         "href": "AWS_Connect.html",
         "contents": [
+          {
+            "title": "AWS::Connect::ContactFlow",
+            "href": "aws-resource-connect-contactflow.html"
+          },
+          {
+            "title": "AWS::Connect::ContactFlowModule",
+            "href": "aws-resource-connect-contactflowmodule.html"
+          },
           {
             "title": "AWS::Connect::HoursOfOperation",
             "href": "aws-resource-connect-hoursofoperation.html",
@@ -3968,6 +4300,10 @@
               {
                 "title": "MarketoSourceProperties",
                 "href": "aws-properties-customerprofiles-integration-marketosourceproperties.html"
+              },
+              {
+                "title": "ObjectTypeMapping",
+                "href": "aws-properties-customerprofiles-integration-objecttypemapping.html"
               },
               {
                 "title": "S3SourceProperties",
@@ -4142,6 +4478,10 @@
                 "href": "aws-properties-databrew-dataset-jsonoptions.html"
               },
               {
+                "title": "Metadata",
+                "href": "aws-properties-databrew-dataset-metadata.html"
+              },
+              {
                 "title": "PathOptions",
                 "href": "aws-properties-databrew-dataset-pathoptions.html"
               },
@@ -4159,6 +4499,10 @@
             "title": "AWS::DataBrew::Job",
             "href": "aws-resource-databrew-job.html",
             "contents": [
+              {
+                "title": "AllowedStatistics",
+                "href": "aws-properties-databrew-job-allowedstatistics.html"
+              },
               {
                 "title": "ColumnSelector",
                 "href": "aws-properties-databrew-job-columnselector.html"
@@ -4182,6 +4526,10 @@
               {
                 "title": "DataCatalogOutput",
                 "href": "aws-properties-databrew-job-datacatalogoutput.html"
+              },
+              {
+                "title": "EntityDetectorConfiguration",
+                "href": "aws-properties-databrew-job-entitydetectorconfiguration.html"
               },
               {
                 "title": "JobSample",
@@ -4226,6 +4574,10 @@
               {
                 "title": "StatisticsConfiguration",
                 "href": "aws-properties-databrew-job-statisticsconfiguration.html"
+              },
+              {
+                "title": "ValidationConfiguration",
+                "href": "aws-properties-databrew-job-validationconfiguration.html"
               }
             ]
           },
@@ -4274,6 +4626,28 @@
               {
                 "title": "SecondaryInput",
                 "href": "aws-properties-databrew-recipe-secondaryinput.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::DataBrew::Ruleset",
+            "href": "aws-resource-databrew-ruleset.html",
+            "contents": [
+              {
+                "title": "ColumnSelector",
+                "href": "aws-properties-databrew-ruleset-columnselector.html"
+              },
+              {
+                "title": "Rule",
+                "href": "aws-properties-databrew-ruleset-rule.html"
+              },
+              {
+                "title": "SubstitutionValue",
+                "href": "aws-properties-databrew-ruleset-substitutionvalue.html"
+              },
+              {
+                "title": "Threshold",
+                "href": "aws-properties-databrew-ruleset-threshold.html"
               }
             ]
           },
@@ -4426,8 +4800,26 @@
             ]
           },
           {
+            "title": "AWS::DataSync::LocationFSxLustre",
+            "href": "aws-resource-datasync-locationfsxlustre.html"
+          },
+          {
             "title": "AWS::DataSync::LocationFSxWindows",
             "href": "aws-resource-datasync-locationfsxwindows.html"
+          },
+          {
+            "title": "AWS::DataSync::LocationHDFS",
+            "href": "aws-resource-datasync-locationhdfs.html",
+            "contents": [
+              {
+                "title": "NameNode",
+                "href": "aws-properties-datasync-locationhdfs-namenode.html"
+              },
+              {
+                "title": "QopConfiguration",
+                "href": "aws-properties-datasync-locationhdfs-qopconfiguration.html"
+              }
+            ]
           },
           {
             "title": "AWS::DataSync::LocationNFS",
@@ -4676,6 +5068,10 @@
                 "href": "aws-properties-dms-endpoint-elasticsearchsettings.html"
               },
               {
+                "title": "GcpMySQLSettings",
+                "href": "aws-properties-dms-endpoint-gcpmysqlsettings.html"
+              },
+              {
                 "title": "IbmDb2Settings",
                 "href": "aws-properties-dms-endpoint-ibmdb2settings.html"
               },
@@ -4710,6 +5106,10 @@
               {
                 "title": "PostgreSqlSettings",
                 "href": "aws-properties-dms-endpoint-postgresqlsettings.html"
+              },
+              {
+                "title": "RedisSettings",
+                "href": "aws-properties-dms-endpoint-redissettings.html"
               },
               {
                 "title": "RedshiftSettings",
@@ -4964,6 +5364,10 @@
                 "href": "aws-properties-ec2-clientvpnendpoint-clientconnectoptions.html"
               },
               {
+                "title": "ClientLoginBannerOptions",
+                "href": "aws-properties-ec2-clientvpnendpoint-clientloginbanneroptions.html"
+              },
+              {
                 "title": "ConnectionLogOptions",
                 "href": "aws-properties-ec2-clientvpnendpoint-connectionlogoptions.html"
               },
@@ -5014,6 +5418,10 @@
                 "href": "aws-properties-ec2-ec2fleet-baselineebsbandwidthmbpsrequest.html"
               },
               {
+                "title": "CapacityRebalance",
+                "href": "aws-properties-ec2-ec2fleet-capacityrebalance.html"
+              },
+              {
                 "title": "CapacityReservationOptionsRequest",
                 "href": "aws-properties-ec2-ec2fleet-capacityreservationoptionsrequest.html"
               },
@@ -5032,6 +5440,10 @@
               {
                 "title": "InstanceRequirementsRequest",
                 "href": "aws-properties-ec2-ec2fleet-instancerequirementsrequest.html"
+              },
+              {
+                "title": "MaintenanceStrategies",
+                "href": "aws-properties-ec2-ec2fleet-maintenancestrategies.html"
               },
               {
                 "title": "MemoryGiBPerVCpuRequest",
@@ -5164,8 +5576,12 @@
                 "href": "aws-properties-ec2-instance-nodevice.html"
               },
               {
+                "title": "PrivateDnsNameOptions",
+                "href": "aws-properties-ec2-instance-privatednsnameoptions.html"
+              },
+              {
                 "title": "PrivateIpAddressSpecification",
-                "href": "aws-properties-ec2-network-interface-privateipspec-1.html"
+                "href": "aws-properties-ec2-network-interface-privateipspec.html"
               },
               {
                 "title": "SsmAssociation",
@@ -5180,6 +5596,34 @@
           {
             "title": "AWS::EC2::InternetGateway",
             "href": "aws-resource-ec2-internetgateway.html"
+          },
+          {
+            "title": "AWS::EC2::IPAM",
+            "href": "aws-resource-ec2-ipam.html",
+            "contents": [
+              {
+                "title": "IpamOperatingRegion",
+                "href": "aws-properties-ec2-ipam-ipamoperatingregion.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::EC2::IPAMAllocation",
+            "href": "aws-resource-ec2-ipamallocation.html"
+          },
+          {
+            "title": "AWS::EC2::IPAMPool",
+            "href": "aws-resource-ec2-ipampool.html",
+            "contents": [
+              {
+                "title": "ProvisionedCidr",
+                "href": "aws-properties-ec2-ipampool-provisionedcidr.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::EC2::IPAMScope",
+            "href": "aws-resource-ec2-ipamscope.html"
           },
           {
             "title": "AWS::EC2::LaunchTemplate",
@@ -5242,6 +5686,10 @@
                 "href": "aws-properties-ec2-launchtemplate-launchtemplatedata-instancemarketoptions.html"
               },
               {
+                "title": "InstanceRequirements",
+                "href": "aws-properties-ec2-launchtemplate-launchtemplatedata-instancerequirements.html"
+              },
+              {
                 "title": "Ipv6Add",
                 "href": "aws-properties-ec2-launchtemplate-ipv6add.html"
               },
@@ -5288,6 +5736,10 @@
               {
                 "title": "Placement",
                 "href": "aws-properties-ec2-launchtemplate-launchtemplatedata-placement.html"
+              },
+              {
+                "title": "PrivateDnsNameOptions",
+                "href": "aws-properties-ec2-launchtemplate-launchtemplatedata-privatednsnameoptions.html"
               },
               {
                 "title": "PrivateIpAdd",
@@ -5340,6 +5792,36 @@
                 "href": "aws-properties-ec2-networkaclentry-portrange.html"
               }
             ]
+          },
+          {
+            "title": "AWS::EC2::NetworkInsightsAccessScope",
+            "href": "aws-resource-ec2-networkinsightsaccessscope.html",
+            "contents": [
+              {
+                "title": "AccessScopePathRequest",
+                "href": "aws-properties-ec2-networkinsightsaccessscope-accessscopepathrequest.html"
+              },
+              {
+                "title": "PacketHeaderStatementRequest",
+                "href": "aws-properties-ec2-networkinsightsaccessscope-packetheaderstatementrequest.html"
+              },
+              {
+                "title": "PathStatementRequest",
+                "href": "aws-properties-ec2-networkinsightsaccessscope-pathstatementrequest.html"
+              },
+              {
+                "title": "ResourceStatementRequest",
+                "href": "aws-properties-ec2-networkinsightsaccessscope-resourcestatementrequest.html"
+              },
+              {
+                "title": "ThroughResourcesStatementRequest",
+                "href": "aws-properties-ec2-networkinsightsaccessscope-throughresourcesstatementrequest.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::EC2::NetworkInsightsAccessScopeAnalysis",
+            "href": "aws-resource-ec2-networkinsightsaccessscopeanalysis.html"
           },
           {
             "title": "AWS::EC2::NetworkInsightsAnalysis",
@@ -5397,7 +5879,7 @@
           },
           {
             "title": "AWS::EC2::NetworkInterface",
-            "href": "aws-resource-ec2-network-interface.html",
+            "href": "aws-resource-ec2-networkinterface.html",
             "contents": [
               {
                 "title": "InstanceIpv6Address",
@@ -5405,7 +5887,7 @@
               },
               {
                 "title": "PrivateIpAddressSpecification",
-                "href": "aws-properties-ec2-network-interface-privateipspec.html"
+                "href": "aws-properties-ec2-networkinterface-privateipaddressspecification.html"
               }
             ]
           },
@@ -5593,7 +6075,13 @@
           },
           {
             "title": "AWS::EC2::Subnet",
-            "href": "aws-resource-ec2-subnet.html"
+            "href": "aws-resource-ec2-subnet.html",
+            "contents": [
+              {
+                "title": "PrivateDnsNameOptionsOnLaunch",
+                "href": "aws-properties-ec2-subnet-privatednsnameoptionsonlaunch.html"
+              }
+            ]
           },
           {
             "title": "AWS::EC2::SubnetCidrBlock",
@@ -5605,7 +6093,7 @@
           },
           {
             "title": "AWS::EC2::SubnetRouteTableAssociation",
-            "href": "aws-resource-ec2-subnet-route-table-assoc.html"
+            "href": "aws-resource-ec2-subnetroutetableassociation.html"
           },
           {
             "title": "AWS::EC2::TrafficMirrorFilter",
@@ -5665,7 +6153,13 @@
           },
           {
             "title": "AWS::EC2::TransitGatewayPeeringAttachment",
-            "href": "aws-resource-ec2-transitgatewaypeeringattachment.html"
+            "href": "aws-resource-ec2-transitgatewaypeeringattachment.html",
+            "contents": [
+              {
+                "title": "TransitGatewayPeeringAttachmentOptions",
+                "href": "aws-properties-ec2-transitgatewaypeeringattachment-transitgatewaypeeringattachmentoptions.html"
+              }
+            ]
           },
           {
             "title": "AWS::EC2::TransitGatewayRoute",
@@ -5705,7 +6199,7 @@
           },
           {
             "title": "AWS::EC2::VPCDHCPOptionsAssociation",
-            "href": "aws-resource-ec2-vpc-dhcp-options-assoc.html"
+            "href": "aws-resource-ec2-vpcdhcpoptionsassociation.html"
           },
           {
             "title": "AWS::EC2::VPCEndpoint",
@@ -5751,7 +6245,7 @@
           },
           {
             "title": "AWS::EC2::VPNGatewayRoutePropagation",
-            "href": "aws-resource-ec2-vpn-gatewayrouteprop.html"
+            "href": "aws-resource-ec2-vpngatewayroutepropagation.html"
           }
         ]
       }
@@ -5843,19 +6337,19 @@
           },
           {
             "title": "AWS::AutoScaling::LaunchConfiguration",
-            "href": "aws-properties-as-launchconfig.html",
+            "href": "aws-resource-autoscaling-launchconfiguration.html",
             "contents": [
               {
                 "title": "BlockDevice",
-                "href": "aws-properties-as-launchconfig-blockdev-template.html"
+                "href": "aws-properties-autoscaling-launchconfiguration-blockdevice.html"
               },
               {
                 "title": "BlockDeviceMapping",
-                "href": "aws-properties-as-launchconfig-blockdev-mapping.html"
+                "href": "aws-properties-autoscaling-launchconfiguration-blockdevicemapping.html"
               },
               {
                 "title": "MetadataOptions",
-                "href": "aws-properties-autoscaling-launchconfig-metadataoptions.html"
+                "href": "aws-properties-autoscaling-launchconfiguration-metadataoptions.html"
               }
             ]
           },
@@ -5872,8 +6366,20 @@
                 "href": "aws-properties-autoscaling-scalingpolicy-customizedmetricspecification.html"
               },
               {
+                "title": "Metric",
+                "href": "aws-properties-autoscaling-scalingpolicy-metric.html"
+              },
+              {
+                "title": "MetricDataQuery",
+                "href": "aws-properties-autoscaling-scalingpolicy-metricdataquery.html"
+              },
+              {
                 "title": "MetricDimension",
                 "href": "aws-properties-autoscaling-scalingpolicy-metricdimension.html"
+              },
+              {
+                "title": "MetricStat",
+                "href": "aws-properties-autoscaling-scalingpolicy-metricstat.html"
               },
               {
                 "title": "PredefinedMetricSpecification",
@@ -5882,6 +6388,18 @@
               {
                 "title": "PredictiveScalingConfiguration",
                 "href": "aws-properties-autoscaling-scalingpolicy-predictivescalingconfiguration.html"
+              },
+              {
+                "title": "PredictiveScalingCustomizedCapacityMetric",
+                "href": "aws-properties-autoscaling-scalingpolicy-predictivescalingcustomizedcapacitymetric.html"
+              },
+              {
+                "title": "PredictiveScalingCustomizedLoadMetric",
+                "href": "aws-properties-autoscaling-scalingpolicy-predictivescalingcustomizedloadmetric.html"
+              },
+              {
+                "title": "PredictiveScalingCustomizedScalingMetric",
+                "href": "aws-properties-autoscaling-scalingpolicy-predictivescalingcustomizedscalingmetric.html"
               },
               {
                 "title": "PredictiveScalingMetricSpecification",
@@ -5915,7 +6433,13 @@
           },
           {
             "title": "AWS::AutoScaling::WarmPool",
-            "href": "aws-resource-autoscaling-warmpool.html"
+            "href": "aws-resource-autoscaling-warmpool.html",
+            "contents": [
+              {
+                "title": "InstanceReusePolicy",
+                "href": "aws-properties-autoscaling-warmpool-instancereusepolicy.html"
+              }
+            ]
           }
         ]
       }
@@ -5930,6 +6454,10 @@
           {
             "title": "AWS::ECR::PublicRepository",
             "href": "aws-resource-ecr-publicrepository.html"
+          },
+          {
+            "title": "AWS::ECR::PullThroughCacheRule",
+            "href": "aws-resource-ecr-pullthroughcacherule.html"
           },
           {
             "title": "AWS::ECR::RegistryPolicy",
@@ -6310,6 +6838,10 @@
             "href": "aws-resource-eks-cluster.html",
             "contents": [
               {
+                "title": "ClusterLogging",
+                "href": "aws-properties-eks-cluster-clusterlogging.html"
+              },
+              {
                 "title": "EncryptionConfig",
                 "href": "aws-properties-eks-cluster-encryptionconfig.html"
               },
@@ -6318,8 +6850,12 @@
                 "href": "aws-properties-eks-cluster-kubernetesnetworkconfig.html"
               },
               {
-                "title": "Provider",
-                "href": "aws-properties-eks-cluster-provider.html"
+                "title": "Logging",
+                "href": "aws-properties-eks-cluster-logging.html"
+              },
+              {
+                "title": "LoggingTypeConfig",
+                "href": "aws-properties-eks-cluster-loggingtypeconfig.html"
               },
               {
                 "title": "ResourcesVpcConfig",
@@ -6338,6 +6874,20 @@
               {
                 "title": "Selector",
                 "href": "aws-properties-eks-fargateprofile-selector.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::EKS::IdentityProviderConfig",
+            "href": "aws-resource-eks-identityproviderconfig.html",
+            "contents": [
+              {
+                "title": "OidcIdentityProviderConfig",
+                "href": "aws-properties-eks-identityproviderconfig-oidcidentityproviderconfig.html"
+              },
+              {
+                "title": "RequiredClaim",
+                "href": "aws-properties-eks-identityproviderconfig-requiredclaim.html"
               }
             ]
           },
@@ -7047,11 +7597,47 @@
           },
           {
             "title": "AWS::Events::Connection",
-            "href": "aws-resource-events-connection.html"
+            "href": "aws-resource-events-connection.html",
+            "contents": [
+              {
+                "title": "ApiKeyAuthParameters",
+                "href": "aws-properties-events-connection-apikeyauthparameters.html"
+              },
+              {
+                "title": "AuthParameters",
+                "href": "aws-properties-events-connection-authparameters.html"
+              },
+              {
+                "title": "BasicAuthParameters",
+                "href": "aws-properties-events-connection-basicauthparameters.html"
+              },
+              {
+                "title": "ClientParameters",
+                "href": "aws-properties-events-connection-clientparameters.html"
+              },
+              {
+                "title": "ConnectionHttpParameters",
+                "href": "aws-properties-events-connection-connectionhttpparameters.html"
+              },
+              {
+                "title": "OAuthParameters",
+                "href": "aws-properties-events-connection-oauthparameters.html"
+              },
+              {
+                "title": "Parameter",
+                "href": "aws-properties-events-connection-parameter.html"
+              }
+            ]
           },
           {
             "title": "AWS::Events::EventBus",
-            "href": "aws-resource-events-eventbus.html"
+            "href": "aws-resource-events-eventbus.html",
+            "contents": [
+              {
+                "title": "TagEntry",
+                "href": "aws-properties-events-eventbus-tagentry.html"
+              }
+            ]
           },
           {
             "title": "AWS::Events::EventBusPolicy",
@@ -7136,6 +7722,14 @@
                 "href": "aws-properties-events-rule-runcommandtarget.html"
               },
               {
+                "title": "SageMakerPipelineParameter",
+                "href": "aws-properties-events-rule-sagemakerpipelineparameter.html"
+              },
+              {
+                "title": "SageMakerPipelineParameters",
+                "href": "aws-properties-events-rule-sagemakerpipelineparameters.html"
+              },
+              {
                 "title": "SqsParameters",
                 "href": "aws-properties-events-rule-sqsparameters.html"
               },
@@ -7197,6 +7791,88 @@
       }
     ]
   },
+  "AWS_Evidently": {
+    "contents": [
+      {
+        "title": "Evidently",
+        "href": "AWS_Evidently.html",
+        "contents": [
+          {
+            "title": "AWS::Evidently::Experiment",
+            "href": "aws-resource-evidently-experiment.html",
+            "contents": [
+              {
+                "title": "MetricGoalObject",
+                "href": "aws-properties-evidently-experiment-metricgoalobject.html"
+              },
+              {
+                "title": "OnlineAbConfigObject",
+                "href": "aws-properties-evidently-experiment-onlineabconfigobject.html"
+              },
+              {
+                "title": "TreatmentObject",
+                "href": "aws-properties-evidently-experiment-treatmentobject.html"
+              },
+              {
+                "title": "TreatmentToWeight",
+                "href": "aws-properties-evidently-experiment-treatmenttoweight.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::Evidently::Feature",
+            "href": "aws-resource-evidently-feature.html",
+            "contents": [
+              {
+                "title": "EntityOverride",
+                "href": "aws-properties-evidently-feature-entityoverride.html"
+              },
+              {
+                "title": "VariationObject",
+                "href": "aws-properties-evidently-feature-variationobject.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::Evidently::Launch",
+            "href": "aws-resource-evidently-launch.html",
+            "contents": [
+              {
+                "title": "GroupToWeight",
+                "href": "aws-properties-evidently-launch-grouptoweight.html"
+              },
+              {
+                "title": "LaunchGroupObject",
+                "href": "aws-properties-evidently-launch-launchgroupobject.html"
+              },
+              {
+                "title": "MetricDefinitionObject",
+                "href": "aws-properties-evidently-launch-metricdefinitionobject.html"
+              },
+              {
+                "title": "StepConfig",
+                "href": "aws-properties-evidently-launch-stepconfig.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::Evidently::Project",
+            "href": "aws-resource-evidently-project.html",
+            "contents": [
+              {
+                "title": "DataDeliveryObject",
+                "href": "aws-properties-evidently-project-datadeliveryobject.html"
+              },
+              {
+                "title": "S3Destination",
+                "href": "aws-properties-evidently-project-s3destination.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "AWS_FinSpace": {
     "contents": [
       {
@@ -7210,6 +7886,10 @@
               {
                 "title": "FederationParameters",
                 "href": "aws-properties-finspace-environment-federationparameters.html"
+              },
+              {
+                "title": "SuperuserParameters",
+                "href": "aws-properties-finspace-environment-superuserparameters.html"
               }
             ]
           }
@@ -7276,6 +7956,24 @@
                 "href": "aws-properties-fms-policy-resourcetag.html"
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  "AWS_Forecast": {
+    "contents": [
+      {
+        "title": "Forecast",
+        "href": "AWS_Forecast.html",
+        "contents": [
+          {
+            "title": "AWS::Forecast::Dataset",
+            "href": "aws-resource-forecast-dataset.html"
+          },
+          {
+            "title": "AWS::Forecast::DatasetGroup",
+            "href": "aws-resource-forecast-datasetgroup.html"
           }
         ]
       }
@@ -7374,16 +8072,96 @@
                 "href": "aws-properties-fsx-filesystem-windowsconfiguration-auditlogconfiguration.html"
               },
               {
+                "title": "ClientConfigurations",
+                "href": "aws-properties-fsx-filesystem-openzfsconfiguration-rootvolumeconfiguration-nfsexports-clientconfigurations.html"
+              },
+              {
+                "title": "DiskIopsConfiguration",
+                "href": "aws-properties-fsx-filesystem-openzfsconfiguration-diskiopsconfiguration.html"
+              },
+              {
                 "title": "LustreConfiguration",
                 "href": "aws-properties-fsx-filesystem-lustreconfiguration.html"
+              },
+              {
+                "title": "NfsExports",
+                "href": "aws-properties-fsx-filesystem-openzfsconfiguration-rootvolumeconfiguration-nfsexports.html"
+              },
+              {
+                "title": "OntapConfiguration",
+                "href": "aws-properties-fsx-filesystem-ontapconfiguration.html"
+              },
+              {
+                "title": "OpenZFSConfiguration",
+                "href": "aws-properties-fsx-filesystem-openzfsconfiguration.html"
+              },
+              {
+                "title": "RootVolumeConfiguration",
+                "href": "aws-properties-fsx-filesystem-openzfsconfiguration-rootvolumeconfiguration.html"
               },
               {
                 "title": "SelfManagedActiveDirectoryConfiguration",
                 "href": "aws-properties-fsx-filesystem-windowsconfiguration-selfmanagedactivedirectoryconfiguration.html"
               },
               {
+                "title": "UserAndGroupQuotas",
+                "href": "aws-properties-fsx-filesystem-openzfsconfiguration-rootvolumeconfiguration-userandgroupquotas.html"
+              },
+              {
                 "title": "WindowsConfiguration",
                 "href": "aws-properties-fsx-filesystem-windowsconfiguration.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::FSx::Snapshot",
+            "href": "aws-resource-fsx-snapshot.html"
+          },
+          {
+            "title": "AWS::FSx::StorageVirtualMachine",
+            "href": "aws-resource-fsx-storagevirtualmachine.html",
+            "contents": [
+              {
+                "title": "ActiveDirectoryConfiguration",
+                "href": "aws-properties-fsx-storagevirtualmachine-activedirectoryconfiguration.html"
+              },
+              {
+                "title": "SelfManagedActiveDirectoryConfiguration",
+                "href": "aws-properties-fsx-storagevirtualmachine-activedirectoryconfiguration-selfmanagedactivedirectoryconfiguration.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::FSx::Volume",
+            "href": "aws-resource-fsx-volume.html",
+            "contents": [
+              {
+                "title": "ClientConfigurations",
+                "href": "aws-properties-fsx-volume-openzfsconfiguration-nfsexports-clientconfigurations.html"
+              },
+              {
+                "title": "NfsExports",
+                "href": "aws-properties-fsx-volume-openzfsconfiguration-nfsexports.html"
+              },
+              {
+                "title": "OntapConfiguration",
+                "href": "aws-properties-fsx-volume-ontapconfiguration.html"
+              },
+              {
+                "title": "OpenZFSConfiguration",
+                "href": "aws-properties-fsx-volume-openzfsconfiguration.html"
+              },
+              {
+                "title": "OriginSnapshot",
+                "href": "aws-properties-fsx-volume-openzfsconfiguration-originsnapshot.html"
+              },
+              {
+                "title": "TieringPolicy",
+                "href": "aws-properties-fsx-volume-ontapconfiguration-tieringpolicy.html"
+              },
+              {
+                "title": "UserAndGroupQuotas",
+                "href": "aws-properties-fsx-volume-openzfsconfiguration-userandgroupquotas.html"
               }
             ]
           }
@@ -7618,6 +8396,10 @@
               {
                 "title": "JdbcTarget",
                 "href": "aws-properties-glue-crawler-jdbctarget.html"
+              },
+              {
+                "title": "MongoDBTarget",
+                "href": "aws-properties-glue-crawler-mongodbtarget.html"
               },
               {
                 "title": "RecrawlPolicy",
@@ -8028,6 +8810,14 @@
                 "href": "aws-properties-guardduty-detector-cfndatasourceconfigurations.html"
               },
               {
+                "title": "CFNKubernetesAuditLogsConfiguration",
+                "href": "aws-properties-guardduty-detector-cfnkubernetesauditlogsconfiguration.html"
+              },
+              {
+                "title": "CFNKubernetesConfiguration",
+                "href": "aws-properties-guardduty-detector-cfnkubernetesconfiguration.html"
+              },
+              {
                 "title": "CFNS3LogsConfiguration",
                 "href": "aws-properties-guardduty-detector-cfns3logsconfiguration.html"
               }
@@ -8422,7 +9212,7 @@
   "AWS_Inspector": {
     "contents": [
       {
-        "title": "Amazon Inspector",
+        "title": "Amazon Inspector classic",
         "href": "AWS_Inspector.html",
         "contents": [
           {
@@ -8436,6 +9226,50 @@
           {
             "title": "AWS::Inspector::ResourceGroup",
             "href": "aws-resource-inspector-resourcegroup.html"
+          }
+        ]
+      }
+    ]
+  },
+  "AWS_InspectorV2": {
+    "contents": [
+      {
+        "title": "Amazon Inspector",
+        "href": "AWS_InspectorV2.html",
+        "contents": [
+          {
+            "title": "AWS::InspectorV2::Filter",
+            "href": "aws-resource-inspectorv2-filter.html",
+            "contents": [
+              {
+                "title": "DateFilter",
+                "href": "aws-properties-inspectorv2-filter-datefilter.html"
+              },
+              {
+                "title": "FilterCriteria",
+                "href": "aws-properties-inspectorv2-filter-filtercriteria.html"
+              },
+              {
+                "title": "MapFilter",
+                "href": "aws-properties-inspectorv2-filter-mapfilter.html"
+              },
+              {
+                "title": "NumberFilter",
+                "href": "aws-properties-inspectorv2-filter-numberfilter.html"
+              },
+              {
+                "title": "PackageFilter",
+                "href": "aws-properties-inspectorv2-filter-packagefilter.html"
+              },
+              {
+                "title": "PortRangeFilter",
+                "href": "aws-properties-inspectorv2-filter-portrangefilter.html"
+              },
+              {
+                "title": "StringFilter",
+                "href": "aws-properties-inspectorv2-filter-stringfilter.html"
+              }
+            ]
           }
         ]
       }
@@ -8514,6 +9348,10 @@
             "href": "aws-resource-iot-jobtemplate.html"
           },
           {
+            "title": "AWS::IoT::Logging",
+            "href": "aws-resource-iot-logging.html"
+          },
+          {
             "title": "AWS::IoT::MitigationAction",
             "href": "aws-resource-iot-mitigationaction.html",
             "contents": [
@@ -8564,6 +9402,10 @@
                 "href": "aws-properties-iot-provisioningtemplate-provisioninghook.html"
               }
             ]
+          },
+          {
+            "title": "AWS::IoT::ResourceSpecificLogging",
+            "href": "aws-resource-iot-resourcespecificlogging.html"
           },
           {
             "title": "AWS::IoT::ScheduledAudit",
@@ -8859,7 +9701,7 @@
               },
               {
                 "title": "DatasetContentVersionValue",
-                "href": "aws-properties-iotanalytics-dataset-variable-datasetcontentversionvalue.html"
+                "href": "aws-properties-iotanalytics-dataset-datasetcontentversionvalue.html"
               },
               {
                 "title": "DeltaTime",
@@ -8891,7 +9733,7 @@
               },
               {
                 "title": "OutputFileUriValue",
-                "href": "aws-properties-iotanalytics-dataset-variable-outputfileurivalue.html"
+                "href": "aws-properties-iotanalytics-dataset-outputfileurivalue.html"
               },
               {
                 "title": "QueryAction",
@@ -8911,7 +9753,7 @@
               },
               {
                 "title": "Schedule",
-                "href": "aws-properties-iotanalytics-dataset-trigger-schedule.html"
+                "href": "aws-properties-iotanalytics-dataset-schedule.html"
               },
               {
                 "title": "Trigger",
@@ -9688,6 +10530,10 @@
               {
                 "title": "Greengrass",
                 "href": "aws-properties-iotsitewise-gateway-greengrass.html"
+              },
+              {
+                "title": "GreengrassV2",
+                "href": "aws-properties-iotsitewise-gateway-greengrassv2.html"
               }
             ]
           },
@@ -9740,6 +10586,26 @@
               {
                 "title": "LoRaWANDeviceProfile",
                 "href": "aws-properties-iotwireless-deviceprofile-lorawandeviceprofile.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::IoTWireless::FuotaTask",
+            "href": "aws-resource-iotwireless-fuotatask.html",
+            "contents": [
+              {
+                "title": "LoRaWAN",
+                "href": "aws-properties-iotwireless-fuotatask-lorawan.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::IoTWireless::MulticastGroup",
+            "href": "aws-resource-iotwireless-multicastgroup.html",
+            "contents": [
+              {
+                "title": "LoRaWAN",
+                "href": "aws-properties-iotwireless-multicastgroup-lorawan.html"
               }
             ]
           },
@@ -9862,6 +10728,10 @@
               {
                 "title": "S3DestinationConfiguration",
                 "href": "aws-properties-ivs-recordingconfiguration-s3destinationconfiguration.html"
+              },
+              {
+                "title": "ThumbnailConfiguration",
+                "href": "aws-properties-ivs-recordingconfiguration-thumbnailconfiguration.html"
               }
             ]
           },
@@ -9936,6 +10806,10 @@
                 "href": "aws-properties-kendra-datasource-connectionconfiguration.html"
               },
               {
+                "title": "CustomDocumentEnrichmentConfiguration",
+                "href": "aws-properties-kendra-datasource-customdocumentenrichmentconfiguration.html"
+              },
+              {
                 "title": "DatabaseConfiguration",
                 "href": "aws-properties-kendra-datasource-databaseconfiguration.html"
               },
@@ -9952,12 +10826,32 @@
                 "href": "aws-properties-kendra-datasource-datasourcevpcconfiguration.html"
               },
               {
+                "title": "DocumentAttributeCondition",
+                "href": "aws-properties-kendra-datasource-documentattributecondition.html"
+              },
+              {
+                "title": "DocumentAttributeTarget",
+                "href": "aws-properties-kendra-datasource-documentattributetarget.html"
+              },
+              {
+                "title": "DocumentAttributeValue",
+                "href": "aws-properties-kendra-datasource-documentattributevalue.html"
+              },
+              {
                 "title": "DocumentsMetadataConfiguration",
                 "href": "aws-properties-kendra-datasource-documentsmetadataconfiguration.html"
               },
               {
                 "title": "GoogleDriveConfiguration",
                 "href": "aws-properties-kendra-datasource-googledriveconfiguration.html"
+              },
+              {
+                "title": "HookConfiguration",
+                "href": "aws-properties-kendra-datasource-hookconfiguration.html"
+              },
+              {
+                "title": "InlineCustomDocumentEnrichmentConfiguration",
+                "href": "aws-properties-kendra-datasource-inlinecustomdocumentenrichmentconfiguration.html"
               },
               {
                 "title": "OneDriveConfiguration",
@@ -10166,6 +11060,10 @@
               {
                 "title": "StreamEncryption",
                 "href": "aws-properties-kinesis-stream-streamencryption.html"
+              },
+              {
+                "title": "StreamModeDetails",
+                "href": "aws-properties-kinesis-stream-streammodedetails.html"
               }
             ]
           },
@@ -10346,10 +11244,6 @@
               {
                 "title": "CustomArtifactConfiguration",
                 "href": "aws-properties-kinesisanalyticsv2-application-customartifactconfiguration.html"
-              },
-              {
-                "title": "CustomArtifactsConfiguration",
-                "href": "aws-properties-kinesisanalyticsv2-application-customartifactsconfiguration.html"
               },
               {
                 "title": "DeployAsApplicationConfiguration",
@@ -10699,6 +11593,24 @@
       }
     ]
   },
+  "AWS_KinesisVideo": {
+    "contents": [
+      {
+        "title": "KinesisVideo",
+        "href": "AWS_KinesisVideo.html",
+        "contents": [
+          {
+            "title": "AWS::KinesisVideo::SignalingChannel",
+            "href": "aws-resource-kinesisvideo-signalingchannel.html"
+          },
+          {
+            "title": "AWS::KinesisVideo::Stream",
+            "href": "aws-resource-kinesisvideo-stream.html"
+          }
+        ]
+      }
+    ]
+  },
   "AWS_KMS": {
     "contents": [
       {
@@ -10856,6 +11768,14 @@
                 "href": "aws-properties-lambda-eventsourcemapping-endpoints.html"
               },
               {
+                "title": "Filter",
+                "href": "aws-properties-lambda-eventsourcemapping-filter.html"
+              },
+              {
+                "title": "FilterCriteria",
+                "href": "aws-properties-lambda-eventsourcemapping-filtercriteria.html"
+              },
+              {
                 "title": "OnFailure",
                 "href": "aws-properties-lambda-eventsourcemapping-onfailure.html"
               },
@@ -10935,6 +11855,268 @@
       }
     ]
   },
+  "AWS_Lex": {
+    "contents": [
+      {
+        "title": "Lex",
+        "href": "AWS_Lex.html",
+        "contents": [
+          {
+            "title": "AWS::Lex::Bot",
+            "href": "aws-resource-lex-bot.html",
+            "contents": [
+              {
+                "title": "BotLocale",
+                "href": "aws-properties-lex-bot-botlocale.html"
+              },
+              {
+                "title": "Button",
+                "href": "aws-properties-lex-bot-button.html"
+              },
+              {
+                "title": "CustomPayload",
+                "href": "aws-properties-lex-bot-custompayload.html"
+              },
+              {
+                "title": "DialogCodeHookSetting",
+                "href": "aws-properties-lex-bot-dialogcodehooksetting.html"
+              },
+              {
+                "title": "ExternalSourceSetting",
+                "href": "aws-properties-lex-bot-externalsourcesetting.html"
+              },
+              {
+                "title": "FulfillmentCodeHookSetting",
+                "href": "aws-properties-lex-bot-fulfillmentcodehooksetting.html"
+              },
+              {
+                "title": "FulfillmentStartResponseSpecification",
+                "href": "aws-properties-lex-bot-fulfillmentstartresponsespecification.html"
+              },
+              {
+                "title": "FulfillmentUpdateResponseSpecification",
+                "href": "aws-properties-lex-bot-fulfillmentupdateresponsespecification.html"
+              },
+              {
+                "title": "FulfillmentUpdatesSpecification",
+                "href": "aws-properties-lex-bot-fulfillmentupdatesspecification.html"
+              },
+              {
+                "title": "GrammarSlotTypeSetting",
+                "href": "aws-properties-lex-bot-grammarslottypesetting.html"
+              },
+              {
+                "title": "GrammarSlotTypeSource",
+                "href": "aws-properties-lex-bot-grammarslottypesource.html"
+              },
+              {
+                "title": "ImageResponseCard",
+                "href": "aws-properties-lex-bot-imageresponsecard.html"
+              },
+              {
+                "title": "InputContext",
+                "href": "aws-properties-lex-bot-inputcontext.html"
+              },
+              {
+                "title": "Intent",
+                "href": "aws-properties-lex-bot-intent.html"
+              },
+              {
+                "title": "IntentClosingSetting",
+                "href": "aws-properties-lex-bot-intentclosingsetting.html"
+              },
+              {
+                "title": "IntentConfirmationSetting",
+                "href": "aws-properties-lex-bot-intentconfirmationsetting.html"
+              },
+              {
+                "title": "KendraConfiguration",
+                "href": "aws-properties-lex-bot-kendraconfiguration.html"
+              },
+              {
+                "title": "Message",
+                "href": "aws-properties-lex-bot-message.html"
+              },
+              {
+                "title": "MessageGroup",
+                "href": "aws-properties-lex-bot-messagegroup.html"
+              },
+              {
+                "title": "MultipleValuesSetting",
+                "href": "aws-properties-lex-bot-multiplevaluessetting.html"
+              },
+              {
+                "title": "ObfuscationSetting",
+                "href": "aws-properties-lex-bot-obfuscationsetting.html"
+              },
+              {
+                "title": "OutputContext",
+                "href": "aws-properties-lex-bot-outputcontext.html"
+              },
+              {
+                "title": "PlainTextMessage",
+                "href": "aws-properties-lex-bot-plaintextmessage.html"
+              },
+              {
+                "title": "PostFulfillmentStatusSpecification",
+                "href": "aws-properties-lex-bot-postfulfillmentstatusspecification.html"
+              },
+              {
+                "title": "PromptSpecification",
+                "href": "aws-properties-lex-bot-promptspecification.html"
+              },
+              {
+                "title": "ResponseSpecification",
+                "href": "aws-properties-lex-bot-responsespecification.html"
+              },
+              {
+                "title": "S3Location",
+                "href": "aws-properties-lex-bot-s3location.html"
+              },
+              {
+                "title": "SampleUtterance",
+                "href": "aws-properties-lex-bot-sampleutterance.html"
+              },
+              {
+                "title": "SampleValue",
+                "href": "aws-properties-lex-bot-samplevalue.html"
+              },
+              {
+                "title": "Slot",
+                "href": "aws-properties-lex-bot-slot.html"
+              },
+              {
+                "title": "SlotDefaultValue",
+                "href": "aws-properties-lex-bot-slotdefaultvalue.html"
+              },
+              {
+                "title": "SlotDefaultValueSpecification",
+                "href": "aws-properties-lex-bot-slotdefaultvaluespecification.html"
+              },
+              {
+                "title": "SlotPriority",
+                "href": "aws-properties-lex-bot-slotpriority.html"
+              },
+              {
+                "title": "SlotType",
+                "href": "aws-properties-lex-bot-slottype.html"
+              },
+              {
+                "title": "SlotTypeValue",
+                "href": "aws-properties-lex-bot-slottypevalue.html"
+              },
+              {
+                "title": "SlotValueElicitationSetting",
+                "href": "aws-properties-lex-bot-slotvalueelicitationsetting.html"
+              },
+              {
+                "title": "SlotValueRegexFilter",
+                "href": "aws-properties-lex-bot-slotvalueregexfilter.html"
+              },
+              {
+                "title": "SlotValueSelectionSetting",
+                "href": "aws-properties-lex-bot-slotvalueselectionsetting.html"
+              },
+              {
+                "title": "SSMLMessage",
+                "href": "aws-properties-lex-bot-ssmlmessage.html"
+              },
+              {
+                "title": "StillWaitingResponseSpecification",
+                "href": "aws-properties-lex-bot-stillwaitingresponsespecification.html"
+              },
+              {
+                "title": "VoiceSettings",
+                "href": "aws-properties-lex-bot-voicesettings.html"
+              },
+              {
+                "title": "WaitAndContinueSpecification",
+                "href": "aws-properties-lex-bot-waitandcontinuespecification.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::Lex::BotAlias",
+            "href": "aws-resource-lex-botalias.html",
+            "contents": [
+              {
+                "title": "AudioLogDestination",
+                "href": "aws-properties-lex-botalias-audiologdestination.html"
+              },
+              {
+                "title": "AudioLogSetting",
+                "href": "aws-properties-lex-botalias-audiologsetting.html"
+              },
+              {
+                "title": "BotAliasLocaleSettings",
+                "href": "aws-properties-lex-botalias-botaliaslocalesettings.html"
+              },
+              {
+                "title": "BotAliasLocaleSettingsItem",
+                "href": "aws-properties-lex-botalias-botaliaslocalesettingsitem.html"
+              },
+              {
+                "title": "CloudWatchLogGroupLogDestination",
+                "href": "aws-properties-lex-botalias-cloudwatchloggrouplogdestination.html"
+              },
+              {
+                "title": "CodeHookSpecification",
+                "href": "aws-properties-lex-botalias-codehookspecification.html"
+              },
+              {
+                "title": "ConversationLogSettings",
+                "href": "aws-properties-lex-botalias-conversationlogsettings.html"
+              },
+              {
+                "title": "LambdaCodeHook",
+                "href": "aws-properties-lex-botalias-lambdacodehook.html"
+              },
+              {
+                "title": "S3BucketLogDestination",
+                "href": "aws-properties-lex-botalias-s3bucketlogdestination.html"
+              },
+              {
+                "title": "TextLogDestination",
+                "href": "aws-properties-lex-botalias-textlogdestination.html"
+              },
+              {
+                "title": "TextLogSetting",
+                "href": "aws-properties-lex-botalias-textlogsetting.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::Lex::BotVersion",
+            "href": "aws-resource-lex-botversion.html",
+            "contents": [
+              {
+                "title": "BotVersionLocaleDetails",
+                "href": "aws-properties-lex-botversion-botversionlocaledetails.html"
+              },
+              {
+                "title": "BotVersionLocaleSpecification",
+                "href": "aws-properties-lex-botversion-botversionlocalespecification.html"
+              },
+              {
+                "title": "BotVersionLocaleSpecificationItem",
+                "href": "aws-properties-lex-botversion-botversionlocalespecificationitem.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::Lex::ResourcePolicy",
+            "href": "aws-resource-lex-resourcepolicy.html",
+            "contents": [
+              {
+                "title": "Policy",
+                "href": "aws-properties-lex-resourcepolicy-policy.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "AWS_LicenseManager": {
     "contents": [
       {
@@ -10990,6 +12172,58 @@
         "href": "AWS_Lightsail.html",
         "contents": [
           {
+            "title": "AWS::Lightsail::Alarm",
+            "href": "aws-resource-lightsail-alarm.html"
+          },
+          {
+            "title": "AWS::Lightsail::Bucket",
+            "href": "aws-resource-lightsail-bucket.html",
+            "contents": [
+              {
+                "title": "AccessRules",
+                "href": "aws-properties-lightsail-bucket-accessrules.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::Lightsail::Certificate",
+            "href": "aws-resource-lightsail-certificate.html"
+          },
+          {
+            "title": "AWS::Lightsail::Container",
+            "href": "aws-resource-lightsail-container.html",
+            "contents": [
+              {
+                "title": "Container",
+                "href": "aws-properties-lightsail-container-container.html"
+              },
+              {
+                "title": "ContainerServiceDeployment",
+                "href": "aws-properties-lightsail-container-containerservicedeployment.html"
+              },
+              {
+                "title": "EnvironmentVariable",
+                "href": "aws-properties-lightsail-container-environmentvariable.html"
+              },
+              {
+                "title": "HealthCheckConfig",
+                "href": "aws-properties-lightsail-container-healthcheckconfig.html"
+              },
+              {
+                "title": "PortInfo",
+                "href": "aws-properties-lightsail-container-portinfo.html"
+              },
+              {
+                "title": "PublicDomainName",
+                "href": "aws-properties-lightsail-container-publicdomainname.html"
+              },
+              {
+                "title": "PublicEndpoint",
+                "href": "aws-properties-lightsail-container-publicendpoint.html"
+              }
+            ]
+          },
+          {
             "title": "AWS::Lightsail::Database",
             "href": "aws-resource-lightsail-database.html",
             "contents": [
@@ -11010,6 +12244,40 @@
               {
                 "title": "AutoSnapshotAddOn",
                 "href": "aws-properties-lightsail-disk-autosnapshotaddon.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::Lightsail::Distribution",
+            "href": "aws-resource-lightsail-distribution.html",
+            "contents": [
+              {
+                "title": "CacheBehavior",
+                "href": "aws-properties-lightsail-distribution-cachebehavior.html"
+              },
+              {
+                "title": "CacheBehaviorPerPath",
+                "href": "aws-properties-lightsail-distribution-cachebehaviorperpath.html"
+              },
+              {
+                "title": "CacheSettings",
+                "href": "aws-properties-lightsail-distribution-cachesettings.html"
+              },
+              {
+                "title": "CookieObject",
+                "href": "aws-properties-lightsail-distribution-cookieobject.html"
+              },
+              {
+                "title": "HeaderObject",
+                "href": "aws-properties-lightsail-distribution-headerobject.html"
+              },
+              {
+                "title": "InputOrigin",
+                "href": "aws-properties-lightsail-distribution-inputorigin.html"
+              },
+              {
+                "title": "QueryStringObject",
+                "href": "aws-properties-lightsail-distribution-querystringobject.html"
               }
             ]
           },
@@ -11054,6 +12322,14 @@
                 "href": "aws-properties-lightsail-instance-state.html"
               }
             ]
+          },
+          {
+            "title": "AWS::Lightsail::LoadBalancer",
+            "href": "aws-resource-lightsail-loadbalancer.html"
+          },
+          {
+            "title": "AWS::Lightsail::LoadBalancerTlsCertificate",
+            "href": "aws-resource-lightsail-loadbalancertlscertificate.html"
           },
           {
             "title": "AWS::Lightsail::StaticIp",
@@ -11482,6 +12758,10 @@
                 "href": "aws-properties-medialive-channel-audiodescription.html"
               },
               {
+                "title": "AudioHlsRenditionSelection",
+                "href": "aws-properties-medialive-channel-audiohlsrenditionselection.html"
+              },
+              {
                 "title": "AudioLanguageSelection",
                 "href": "aws-properties-medialive-channel-audiolanguageselection.html"
               },
@@ -11516,6 +12796,10 @@
               {
                 "title": "AudioTrackSelection",
                 "href": "aws-properties-medialive-channel-audiotrackselection.html"
+              },
+              {
+                "title": "AudioWatermarkSettings",
+                "href": "aws-properties-medialive-channel-audiowatermarksettings.html"
               },
               {
                 "title": "AutomaticInputFailoverSettings",
@@ -11834,8 +13118,20 @@
                 "href": "aws-properties-medialive-channel-networkinputsettings.html"
               },
               {
+                "title": "NielsenCBET",
+                "href": "aws-properties-medialive-channel-nielsencbet.html"
+              },
+              {
                 "title": "NielsenConfiguration",
                 "href": "aws-properties-medialive-channel-nielsenconfiguration.html"
+              },
+              {
+                "title": "NielsenNaesIiNw",
+                "href": "aws-properties-medialive-channel-nielsennaesiinw.html"
+              },
+              {
+                "title": "NielsenWatermarksSettings",
+                "href": "aws-properties-medialive-channel-nielsenwatermarkssettings.html"
               },
               {
                 "title": "Output",
@@ -12346,6 +13642,10 @@
         "href": "AWS_MSK.html",
         "contents": [
           {
+            "title": "AWS::MSK::BatchScramSecret",
+            "href": "aws-resource-msk-batchscramsecret.html"
+          },
+          {
             "title": "AWS::MSK::Cluster",
             "href": "aws-resource-msk-cluster.html",
             "contents": [
@@ -12368,6 +13668,10 @@
               {
                 "title": "ConfigurationInfo",
                 "href": "aws-properties-msk-cluster-configurationinfo.html"
+              },
+              {
+                "title": "ConnectivityInfo",
+                "href": "aws-properties-msk-cluster-connectivityinfo.html"
               },
               {
                 "title": "EBSStorageInfo",
@@ -12414,6 +13718,14 @@
                 "href": "aws-properties-msk-cluster-prometheus.html"
               },
               {
+                "title": "ProvisionedThroughput",
+                "href": "aws-properties-msk-cluster-provisionedthroughput.html"
+              },
+              {
+                "title": "PublicAccess",
+                "href": "aws-properties-msk-cluster-publicaccess.html"
+              },
+              {
                 "title": "S3",
                 "href": "aws-properties-msk-cluster-s3.html"
               },
@@ -12436,6 +13748,98 @@
               {
                 "title": "Unauthenticated",
                 "href": "aws-properties-msk-cluster-unauthenticated.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::MSK::Configuration",
+            "href": "aws-resource-msk-configuration.html"
+          }
+        ]
+      }
+    ]
+  },
+  "AWS_KafkaConnect": {
+    "contents": [
+      {
+        "title": "KafkaConnect",
+        "href": "AWS_KafkaConnect.html",
+        "contents": [
+          {
+            "title": "AWS::KafkaConnect::Connector",
+            "href": "aws-resource-kafkaconnect-connector.html",
+            "contents": [
+              {
+                "title": "ApacheKafkaCluster",
+                "href": "aws-properties-kafkaconnect-connector-apachekafkacluster.html"
+              },
+              {
+                "title": "AutoScaling",
+                "href": "aws-properties-kafkaconnect-connector-autoscaling.html"
+              },
+              {
+                "title": "Capacity",
+                "href": "aws-properties-kafkaconnect-connector-capacity.html"
+              },
+              {
+                "title": "CloudWatchLogsLogDelivery",
+                "href": "aws-properties-kafkaconnect-connector-cloudwatchlogslogdelivery.html"
+              },
+              {
+                "title": "CustomPlugin",
+                "href": "aws-properties-kafkaconnect-connector-customplugin.html"
+              },
+              {
+                "title": "FirehoseLogDelivery",
+                "href": "aws-properties-kafkaconnect-connector-firehoselogdelivery.html"
+              },
+              {
+                "title": "KafkaCluster",
+                "href": "aws-properties-kafkaconnect-connector-kafkacluster.html"
+              },
+              {
+                "title": "KafkaClusterClientAuthentication",
+                "href": "aws-properties-kafkaconnect-connector-kafkaclusterclientauthentication.html"
+              },
+              {
+                "title": "KafkaClusterEncryptionInTransit",
+                "href": "aws-properties-kafkaconnect-connector-kafkaclusterencryptionintransit.html"
+              },
+              {
+                "title": "LogDelivery",
+                "href": "aws-properties-kafkaconnect-connector-logdelivery.html"
+              },
+              {
+                "title": "Plugin",
+                "href": "aws-properties-kafkaconnect-connector-plugin.html"
+              },
+              {
+                "title": "ProvisionedCapacity",
+                "href": "aws-properties-kafkaconnect-connector-provisionedcapacity.html"
+              },
+              {
+                "title": "S3LogDelivery",
+                "href": "aws-properties-kafkaconnect-connector-s3logdelivery.html"
+              },
+              {
+                "title": "ScaleInPolicy",
+                "href": "aws-properties-kafkaconnect-connector-scaleinpolicy.html"
+              },
+              {
+                "title": "ScaleOutPolicy",
+                "href": "aws-properties-kafkaconnect-connector-scaleoutpolicy.html"
+              },
+              {
+                "title": "Vpc",
+                "href": "aws-properties-kafkaconnect-connector-vpc.html"
+              },
+              {
+                "title": "WorkerConfiguration",
+                "href": "aws-properties-kafkaconnect-connector-workerconfiguration.html"
+              },
+              {
+                "title": "WorkerLogDelivery",
+                "href": "aws-properties-kafkaconnect-connector-workerlogdelivery.html"
               }
             ]
           }
@@ -12548,6 +13952,10 @@
                 "href": "aws-properties-networkfirewall-firewallpolicy-publishmetricaction.html"
               },
               {
+                "title": "StatefulEngineOptions",
+                "href": "aws-properties-networkfirewall-firewallpolicy-statefulengineoptions.html"
+              },
+              {
                 "title": "StatefulRuleGroupReference",
                 "href": "aws-properties-networkfirewall-firewallpolicy-statefulrulegroupreference.html"
               },
@@ -12644,6 +14052,10 @@
                 "href": "aws-properties-networkfirewall-rulegroup-statefulrule.html"
               },
               {
+                "title": "StatefulRuleOptions",
+                "href": "aws-properties-networkfirewall-rulegroup-statefulruleoptions.html"
+              },
+              {
                 "title": "StatelessRule",
                 "href": "aws-properties-networkfirewall-rulegroup-statelessrule.html"
               },
@@ -12730,6 +14142,14 @@
               {
                 "title": "StreamConfiguration",
                 "href": "aws-properties-nimblestudio-launchprofile-streamconfiguration.html"
+              },
+              {
+                "title": "StreamConfigurationSessionStorage",
+                "href": "aws-properties-nimblestudio-launchprofile-streamconfigurationsessionstorage.html"
+              },
+              {
+                "title": "StreamingSessionStorageRoot",
+                "href": "aws-properties-nimblestudio-launchprofile-streamingsessionstorageroot.html"
               }
             ]
           },
@@ -13091,6 +14511,44 @@
       }
     ]
   },
+  "AWS_Personalize": {
+    "contents": [
+      {
+        "title": "Personalize",
+        "href": "AWS_Personalize.html",
+        "contents": [
+          {
+            "title": "AWS::Personalize::Dataset",
+            "href": "aws-resource-personalize-dataset.html",
+            "contents": [
+              {
+                "title": "DatasetImportJob",
+                "href": "aws-properties-personalize-dataset-datasetimportjob.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::Personalize::DatasetGroup",
+            "href": "aws-resource-personalize-datasetgroup.html"
+          },
+          {
+            "title": "AWS::Personalize::Schema",
+            "href": "aws-resource-personalize-schema.html"
+          },
+          {
+            "title": "AWS::Personalize::Solution",
+            "href": "aws-resource-personalize-solution.html",
+            "contents": [
+              {
+                "title": "SolutionConfig",
+                "href": "aws-properties-personalize-solution-solutionconfig.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "AWS_Pinpoint": {
     "contents": [
       {
@@ -13248,6 +14706,36 @@
           {
             "title": "AWS::Pinpoint::GCMChannel",
             "href": "aws-resource-pinpoint-gcmchannel.html"
+          },
+          {
+            "title": "AWS::Pinpoint::InAppTemplate",
+            "href": "aws-resource-pinpoint-inapptemplate.html",
+            "contents": [
+              {
+                "title": "BodyConfig",
+                "href": "aws-properties-pinpoint-inapptemplate-bodyconfig.html"
+              },
+              {
+                "title": "ButtonConfig",
+                "href": "aws-properties-pinpoint-inapptemplate-buttonconfig.html"
+              },
+              {
+                "title": "DefaultButtonConfiguration",
+                "href": "aws-properties-pinpoint-inapptemplate-defaultbuttonconfiguration.html"
+              },
+              {
+                "title": "HeaderConfig",
+                "href": "aws-properties-pinpoint-inapptemplate-headerconfig.html"
+              },
+              {
+                "title": "InAppMessageContent",
+                "href": "aws-properties-pinpoint-inapptemplate-inappmessagecontent.html"
+              },
+              {
+                "title": "OverrideButtonConfiguration",
+                "href": "aws-properties-pinpoint-inapptemplate-overridebuttonconfiguration.html"
+              }
+            ]
           },
           {
             "title": "AWS::Pinpoint::PushTemplate",
@@ -14048,6 +15536,94 @@
           {
             "title": "AWS::Redshift::ClusterSubnetGroup",
             "href": "aws-resource-redshift-clustersubnetgroup.html"
+          },
+          {
+            "title": "AWS::Redshift::EndpointAccess",
+            "href": "aws-resource-redshift-endpointaccess.html",
+            "contents": [
+              {
+                "title": "VpcSecurityGroup",
+                "href": "aws-properties-redshift-endpointaccess-vpcsecuritygroup.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::Redshift::EndpointAuthorization",
+            "href": "aws-resource-redshift-endpointauthorization.html"
+          },
+          {
+            "title": "AWS::Redshift::EventSubscription",
+            "href": "aws-resource-redshift-eventsubscription.html"
+          },
+          {
+            "title": "AWS::Redshift::ScheduledAction",
+            "href": "aws-resource-redshift-scheduledaction.html",
+            "contents": [
+              {
+                "title": "PauseClusterMessage",
+                "href": "aws-properties-redshift-scheduledaction-pauseclustermessage.html"
+              },
+              {
+                "title": "ResizeClusterMessage",
+                "href": "aws-properties-redshift-scheduledaction-resizeclustermessage.html"
+              },
+              {
+                "title": "ResumeClusterMessage",
+                "href": "aws-properties-redshift-scheduledaction-resumeclustermessage.html"
+              },
+              {
+                "title": "ScheduledActionType",
+                "href": "aws-properties-redshift-scheduledaction-scheduledactiontype.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "AWS_RefactorSpaces": {
+    "contents": [
+      {
+        "title": "RefactorSpaces",
+        "href": "AWS_RefactorSpaces.html",
+        "contents": [
+          {
+            "title": "AWS::RefactorSpaces::Application",
+            "href": "aws-resource-refactorspaces-application.html",
+            "contents": [
+              {
+                "title": "ApiGatewayProxyInput",
+                "href": "aws-properties-refactorspaces-application-apigatewayproxyinput.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::RefactorSpaces::Environment",
+            "href": "aws-resource-refactorspaces-environment.html"
+          },
+          {
+            "title": "AWS::RefactorSpaces::Route",
+            "href": "aws-resource-refactorspaces-route.html",
+            "contents": [
+              {
+                "title": "UriPathRouteInput",
+                "href": "aws-properties-refactorspaces-route-uripathrouteinput.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::RefactorSpaces::Service",
+            "href": "aws-resource-refactorspaces-service.html",
+            "contents": [
+              {
+                "title": "LambdaEndpointInput",
+                "href": "aws-properties-refactorspaces-service-lambdaendpointinput.html"
+              },
+              {
+                "title": "UrlEndpointInput",
+                "href": "aws-properties-refactorspaces-service-urlendpointinput.html"
+              }
+            ]
           }
         ]
       }
@@ -14060,8 +15636,46 @@
         "href": "AWS_Rekognition.html",
         "contents": [
           {
+            "title": "AWS::Rekognition::Collection",
+            "href": "aws-resource-rekognition-collection.html"
+          },
+          {
             "title": "AWS::Rekognition::Project",
             "href": "aws-resource-rekognition-project.html"
+          }
+        ]
+      }
+    ]
+  },
+  "AWS_ResilienceHub": {
+    "contents": [
+      {
+        "title": "ResilienceHub",
+        "href": "AWS_ResilienceHub.html",
+        "contents": [
+          {
+            "title": "AWS::ResilienceHub::App",
+            "href": "aws-resource-resiliencehub-app.html",
+            "contents": [
+              {
+                "title": "PhysicalResourceId",
+                "href": "aws-properties-resiliencehub-app-physicalresourceid.html"
+              },
+              {
+                "title": "ResourceMapping",
+                "href": "aws-properties-resiliencehub-app-resourcemapping.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::ResilienceHub::ResiliencyPolicy",
+            "href": "aws-resource-resiliencehub-resiliencypolicy.html",
+            "contents": [
+              {
+                "title": "FailurePolicy",
+                "href": "aws-properties-resiliencehub-resiliencypolicy-failurepolicy.html"
+              }
+            ]
           }
         ]
       }
@@ -14409,6 +16023,26 @@
       }
     ]
   },
+  "AWS_RUM": {
+    "contents": [
+      {
+        "title": "RUM",
+        "href": "AWS_RUM.html",
+        "contents": [
+          {
+            "title": "AWS::RUM::AppMonitor",
+            "href": "aws-resource-rum-appmonitor.html",
+            "contents": [
+              {
+                "title": "AppMonitorConfiguration",
+                "href": "aws-properties-rum-appmonitor-appmonitorconfiguration.html"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "AWS_S3": {
     "contents": [
       {
@@ -14482,6 +16116,10 @@
                 "href": "aws-properties-s3-bucket-encryptionconfiguration.html"
               },
               {
+                "title": "EventBridgeConfiguration",
+                "href": "aws-properties-s3-bucket-notificationconfig-eventbridgeconfig.html"
+              },
+              {
                 "title": "FilterRule",
                 "href": "aws-properties-s3-bucket-notificationconfiguration-config-filter-s3key-rules.html"
               },
@@ -14512,6 +16150,10 @@
               {
                 "title": "MetricsConfiguration",
                 "href": "aws-properties-s3-bucket-metricsconfiguration.html"
+              },
+              {
+                "title": "NoncurrentVersionExpiration",
+                "href": "aws-properties-s3-bucket-lifecycleconfig-rule-noncurrentversionexpiration.html"
               },
               {
                 "title": "NoncurrentVersionTransition",
@@ -14696,6 +16338,10 @@
               {
                 "title": "BucketsAndRegions",
                 "href": "aws-properties-s3-storagelens-bucketsandregions.html"
+              },
+              {
+                "title": "CloudWatchMetrics",
+                "href": "aws-properties-s3-storagelens-cloudwatchmetrics.html"
               },
               {
                 "title": "DataExport",
@@ -15036,6 +16682,10 @@
               {
                 "title": "ProductionVariant",
                 "href": "aws-properties-sagemaker-endpointconfig-productionvariant.html"
+              },
+              {
+                "title": "ServerlessConfig",
+                "href": "aws-properties-sagemaker-endpointconfig-productionvariant-serverlessconfig.html"
               }
             ]
           },
@@ -15797,7 +17447,7 @@
         "contents": [
           {
             "title": "AWS::SQS::Queue",
-            "href": "aws-properties-sqs-queues.html"
+            "href": "aws-resource-sqs-queue.html"
           },
           {
             "title": "AWS::SQS::QueuePolicy",
@@ -15950,6 +17600,10 @@
             "href": "aws-resource-ssm-maintenancewindowtask.html",
             "contents": [
               {
+                "title": "CloudWatchOutputConfig",
+                "href": "aws-properties-ssm-maintenancewindowtask-cloudwatchoutputconfig.html"
+              },
+              {
                 "title": "LoggingInfo",
                 "href": "aws-properties-ssm-maintenancewindowtask-logginginfo.html"
               },
@@ -16050,6 +17704,56 @@
             "href": "aws-resource-timestream-database.html"
           },
           {
+            "title": "AWS::Timestream::ScheduledQuery",
+            "href": "aws-resource-timestream-scheduledquery.html",
+            "contents": [
+              {
+                "title": "DimensionMapping",
+                "href": "aws-properties-timestream-scheduledquery-dimensionmapping.html"
+              },
+              {
+                "title": "ErrorReportConfiguration",
+                "href": "aws-properties-timestream-scheduledquery-errorreportconfiguration.html"
+              },
+              {
+                "title": "MixedMeasureMapping",
+                "href": "aws-properties-timestream-scheduledquery-mixedmeasuremapping.html"
+              },
+              {
+                "title": "MultiMeasureAttributeMapping",
+                "href": "aws-properties-timestream-scheduledquery-multimeasureattributemapping.html"
+              },
+              {
+                "title": "MultiMeasureMappings",
+                "href": "aws-properties-timestream-scheduledquery-multimeasuremappings.html"
+              },
+              {
+                "title": "NotificationConfiguration",
+                "href": "aws-properties-timestream-scheduledquery-notificationconfiguration.html"
+              },
+              {
+                "title": "S3Configuration",
+                "href": "aws-properties-timestream-scheduledquery-s3configuration.html"
+              },
+              {
+                "title": "ScheduleConfiguration",
+                "href": "aws-properties-timestream-scheduledquery-scheduleconfiguration.html"
+              },
+              {
+                "title": "SnsConfiguration",
+                "href": "aws-properties-timestream-scheduledquery-snsconfiguration.html"
+              },
+              {
+                "title": "TargetConfiguration",
+                "href": "aws-properties-timestream-scheduledquery-targetconfiguration.html"
+              },
+              {
+                "title": "TimestreamConfiguration",
+                "href": "aws-properties-timestream-scheduledquery-timestreamconfiguration.html"
+              }
+            ]
+          },
+          {
             "title": "AWS::Timestream::Table",
             "href": "aws-resource-timestream-table.html"
           }
@@ -16108,6 +17812,16 @@
               {
                 "title": "SshPublicKey",
                 "href": "aws-properties-transfer-user-sshpublickey.html"
+              }
+            ]
+          },
+          {
+            "title": "AWS::Transfer::Workflow",
+            "href": "aws-resource-transfer-workflow.html",
+            "contents": [
+              {
+                "title": "WorkflowStep",
+                "href": "aws-properties-transfer-workflow-workflowstep.html"
               }
             ]
           }
@@ -16380,6 +18094,10 @@
                 "href": "aws-properties-wafv2-rulegroup-bytematchstatement.html"
               },
               {
+                "title": "CaptchaConfig",
+                "href": "aws-properties-wafv2-rulegroup-captchaconfig.html"
+              },
+              {
                 "title": "CustomResponseBody",
                 "href": "aws-properties-wafv2-rulegroup-customresponsebody.html"
               },
@@ -16394,6 +18112,10 @@
               {
                 "title": "GeoMatchStatement",
                 "href": "aws-properties-wafv2-rulegroup-geomatchstatement.html"
+              },
+              {
+                "title": "ImmunityTimeProperty",
+                "href": "aws-properties-wafv2-rulegroup-immunitytimeproperty.html"
               },
               {
                 "title": "IPSetForwardedIPConfiguration",
@@ -16434,6 +18156,10 @@
               {
                 "title": "RateBasedStatement",
                 "href": "aws-properties-wafv2-rulegroup-ratebasedstatement.html"
+              },
+              {
+                "title": "RegexMatchStatement",
+                "href": "aws-properties-wafv2-rulegroup-regexmatchstatement.html"
               },
               {
                 "title": "RegexPatternSetReferenceStatement",
@@ -16494,6 +18220,14 @@
                 "href": "aws-properties-wafv2-webacl-bytematchstatement.html"
               },
               {
+                "title": "CaptchaAction",
+                "href": "aws-properties-wafv2-webacl-captchaaction.html"
+              },
+              {
+                "title": "CaptchaConfig",
+                "href": "aws-properties-wafv2-webacl-captchaconfig.html"
+              },
+              {
                 "title": "CountAction",
                 "href": "aws-properties-wafv2-webacl-countaction.html"
               },
@@ -16522,6 +18256,10 @@
                 "href": "aws-properties-wafv2-webacl-excludedrule.html"
               },
               {
+                "title": "FieldIdentifier",
+                "href": "aws-properties-wafv2-webacl-fieldidentifier.html"
+              },
+              {
                 "title": "FieldToMatch",
                 "href": "aws-properties-wafv2-webacl-fieldtomatch.html"
               },
@@ -16532,6 +18270,10 @@
               {
                 "title": "GeoMatchStatement",
                 "href": "aws-properties-wafv2-webacl-geomatchstatement.html"
+              },
+              {
+                "title": "ImmunityTimeProperty",
+                "href": "aws-properties-wafv2-webacl-immunitytimeproperty.html"
               },
               {
                 "title": "IPSetForwardedIPConfiguration",
@@ -16558,6 +18300,10 @@
                 "href": "aws-properties-wafv2-webacl-labelmatchstatement.html"
               },
               {
+                "title": "ManagedRuleGroupConfig",
+                "href": "aws-properties-wafv2-webacl-managedrulegroupconfig.html"
+              },
+              {
                 "title": "ManagedRuleGroupStatement",
                 "href": "aws-properties-wafv2-webacl-managedrulegroupstatement.html"
               },
@@ -16576,6 +18322,10 @@
               {
                 "title": "RateBasedStatement",
                 "href": "aws-properties-wafv2-webacl-ratebasedstatement.html"
+              },
+              {
+                "title": "RegexMatchStatement",
+                "href": "aws-properties-wafv2-webacl-regexmatchstatement.html"
               },
               {
                 "title": "RegexPatternSetReferenceStatement",
