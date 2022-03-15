@@ -201,10 +201,7 @@
     "aws_elasticache_parameter_group",
     "aws_elasticache_subnet_group",
     "aws_elasticache_global_replication_group",
-    "aws_elasticache_user",
-    "aws_elasticsearch_domain",
-    "aws_elasticsearch_domain_saml_options",
-    "aws_elasticsearch_domain_policy"
+    "aws_elasticache_user"
   ],
   "iam": [
     "aws_iam_policy_attachment",
@@ -1016,6 +1013,11 @@
   "worklink": [
     "aws_worklink_fleet",
     "aws_worklink_website_certificate_authority_association"
+  ],
+  "es": [
+    "aws_elasticsearch_domain",
+    "aws_elasticsearch_domain_saml_options",
+    "aws_elasticsearch_domain_policy"
   ],
   "license-manager": [
     "aws_licensemanager_license_configuration",
